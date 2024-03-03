@@ -4,7 +4,8 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
-h1.number{
+
+h1.number {
     color: rgba(255, 0, 0, 0.842);
     font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,6 +18,12 @@ hr {
     background: black;
 }
 
+hr.bar {
+    width: 70%;
+    height: 11px;
+    background: black;
+}
+
 p {
     width: 50%;
     margin: auto;
@@ -24,11 +31,11 @@ p {
 }
 
 img {
-    width: 228 px;
+    width: 300px;
     height: 228px;
 }
 
-video{
+video {
     margin: auto;
     width: 600px;
     display: block;
@@ -41,5 +48,5 @@ div.BoxImage {
 }
 
 body {
-    background: linear-gradient(black,black,rgb(88, 24, 24),rgba(255, 166, 0, 0.842), rgba(180, 14, 14, 0.801),rgba(180,14,14,0.801));
+    background: linear-gradient(black, black, rgb(88, 24, 24), rgba(255, 166, 0, 0.842), rgba(180, 14, 14, 0.801), rgba(180, 14, 14, 0.801));
 }
