@@ -1,0 +1,41 @@
+div.center {
+    background: rgba(255, 255, 255, 0.842);
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 11px;
+}
+
+div.center button {
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#off_button {
+    background-color: red;
+}
+
+#on_button {
+    background-color: green;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(87, 87, 87), rgba(117, 117, 117, 0.596), rgba(41, 40, 40, 0.76), black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.center button:hover {
+    color: orange;
+}
