@@ -1,0 +1,93 @@
+div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+
+}
+
+div.selection {
+
+    gap: 11px;
+
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    border-radius: 4%;
+    width: 500px;
+    height: 400px;
+}
+
+button {
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#haizaki {
+    background-color: rgba(121, 7, 121, 0.726);
+}
+
+#ibuki {
+    background-color: rgba(0, 128, 0, 0.863);
+}
+
+#matatagi {
+    background-color: blue;
+}
+
+#kariya {
+    background-color: rgba(255, 255, 0, 0.699);
+}
+
+#sakurazaki {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(121, 7, 121, 0.726);
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(121, 7, 121, 0.726);
+}
+
+body {
+    background: linear-gradient(black, rgba(24, 24, 24, 0.705), yellow, rgba(81, 81, 248, 0.671), rgba(14, 14, 245, 0.836));
+    height: 100vh;
+}
+
+#haizaki:hover {
+
+    color: rgba(245, 245, 220, 0.678);
+}
+
+#ibuki:hover {
+
+    color: rgba(66, 66, 255, 0.781);
+}
+
+#matatagi:hover {
+
+    color: white;
+}
+
+#kariya:hover {
+
+    color: red;
+}
+
+#sakurazaki:hover {
+
+    color: rgba(128, 0, 128, 0.884);
+}
