@@ -1,0 +1,48 @@
+body {
+    background: url("/images/Epic.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.central {
+    width: 500px;
+    height: 200px;
+    background: rgba(248, 248, 248, 0.438);
+    border-radius: 50px;
+    box-shadow: 4px 11px 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.central div {
+    width: 111px;
+    height: 111px;
+    background: rgba(0, 0, 0, 0.829);
+    font-size: 45px;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.central p {
+    font-size: 80px;
+}
+
+#hours {
+    color: yellow;
+}
+
+#minutes {
+    color: rgb(23, 23, 182);
+}
+
+#seconds {
+    color: rgb(14, 102, 102);
+}
