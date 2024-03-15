@@ -4,8 +4,10 @@ body {
     background-attachment: fixed;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 11px;
 }
 
 div.central {
@@ -45,4 +47,38 @@ div.central p {
 
 #seconds {
     color: rgb(14, 102, 102);
+}
+
+#picture {
+    height: 200px;
+    width: 300px;
+}
+
+#message {
+    font-size: 90px;
+    color: rgb(151, 8, 151);
+}
+
+#DaTe {
+    font-size: 60px;
+    color: yellow;
+}
+
+div.B {
+    height: 100px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.493);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.A {
+    background: rgba(255, 255, 255, 0.493);
+    border-radius: 30px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
