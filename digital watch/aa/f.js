@@ -4,10 +4,11 @@ const second = document.querySelector('#seconds');
 const picture = document.querySelector('#picture');
 const message = document.querySelector('#message');
 const DaTe = document.querySelector('#DaTe');
+const back = document.querySelector('body');
 
 setInterval(clock,1000);
-setInterval(screen_switch,1000);
-
+setInterval(image_switch,1000);
+setInterval(background_switch,1000);
 var day;
 var actual_hour;
 
@@ -40,7 +41,7 @@ function clock()
     second.textContent = actual_second;
 }
 
-function screen_switch()
+function image_switch()
 {    
     let actual_date = day.getDate();
     let actual_mounth = day.getMonth() + 1;
@@ -65,18 +66,39 @@ function screen_switch()
         DaTe.textContent = actual_date + '/' + '0' + actual_mounth + '/' + actual_year;
     }
     
-
+    
     if(actual_hour > 12 && actual_hour < 18)
     {
         message.textContent = "BOA TARDE";     
         picture.src = 'images/tarde.avif';
     } else if (actual_hour >= 5 && actual_hour <= 12) 
     {
-        picture.src = 'images/dia.jpg';
+        picture.src = 'images/day.webp';
         message.textContent ="BOM DIA";
     } else 
     {
         picture.src = 'images/noite.jpg';
         message.textContent = "BOA NOITE";
     }
+}
+
+function  background_switch() 
+{
+    
+    if(actual_hour > 12 && actual_hour < 18)
+    {
+        
+        back.className = 'afternoon';   
+        
+        
+    } else if (actual_hour >= 5 && actual_hour <= 12) 
+    {
+        
+        back.className = 'day';   
+        
+    } else 
+    {
+        back.className = 'night';
+    }
+    
 }
