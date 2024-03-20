@@ -82,3 +82,21 @@ div.A {
     align-items: center;
     justify-content: center;
 }
+
+.day {
+    background: url('/images/Epic.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.afternoon {
+    background: url('/images/tarde.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.night {
+    background: url('/images/night.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
