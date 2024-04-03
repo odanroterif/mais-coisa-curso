@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    background: url('/image/Teikoku_Gakuen_(GO).webp');
+    height: 100vh;
+}
+
+.negate {
+    background: rgb(167, 3, 3);
+}
+
+.win {
+    background: rgb(9, 190, 9);
+}
+
+div.central {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 7px 7px 11px black;
+    width: 350px;
+    height: 330px;
+    border-radius: 11px;
+    gap: 11px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.central input {
+    height: 15px;
+    width: 300px;
+    border-radius: 4px;
+    outline: none;
+}
+
+div.central p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(211, 139, 5);
+}
+
+div.central button {
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#name {
+    height: 30px;
+}
