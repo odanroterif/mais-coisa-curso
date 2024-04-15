@@ -1,0 +1,143 @@
+body {
+    background: gray;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#ground {
+    position: absolute;
+    background: green;
+    height: 300px;
+    width: 1600px;
+    top: 580px;
+    left: 0px;
+}
+
+div.a {
+    background: black;
+    height: 16px;
+    width: 150px;
+    border-radius: 2px;
+}
+
+#platform {
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}
+
+#platform_two {
+    position: absolute;
+    top: 350px;
+    left: 570px;
+}
+
+#platform_three {
+    position: absolute;
+    top: 260px;
+    left: 800px;
+}
+
+#platform_four {
+    position: absolute;
+    top: 170px;
+    left: 1020px;
+}
+
+#coin {
+    background: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 500px;
+    position: absolute;
+    top: 60px;
+    left: 1300px;
+    animation-name: drop;
+    animation-duration: 2s;
+    animation-delay: 6.9s;
+
+}
+
+#people {
+    position: absolute;
+    background: purple;
+    height: 80px;
+    width: 60px;
+    top: 500px;
+    left: 11px;
+    animation-name: walk;
+    animation-duration: 9s;
+}
+
+@keyframes drop {
+    0% {
+        background: none;
+    }
+
+    50% {
+        background: none;
+    }
+
+    70% {
+        background: none;
+    }
+
+    100% {
+        background: none;
+    }
+}
+
+@keyframes walk {
+    0% {
+        top: 500px;
+        left: 11px;
+    }
+
+    30% {
+        top: 500px;
+        left: 100px;
+    }
+
+    39% {
+        top: 370px;
+        left: 250px;
+    }
+
+    40% {
+        top: 370px;
+        left: 350px;
+    }
+
+    50% {
+        top: 270px;
+        left: 600px;
+    }
+
+    60% {
+        top: 180px;
+        left: 800px;
+    }
+
+    70% {
+        top: 90px;
+        left: 1050px;
+    }
+
+    81% {
+        top: 60px;
+        left: 1300px;
+    }
+
+    90% {
+        top: 500px;
+        left: 1300px;
+        animation: ease-in;
+    }
+
+    100% {
+        top: 500px;
+        left: 1300px;
+        animation: ease-in;
+    }
+}
