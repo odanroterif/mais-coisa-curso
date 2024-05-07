@@ -170,3 +170,6 @@ where pais like '%s%';
 
 select * from Evento.empresa
 where pais like '______';
+
+select * from Evento.empresa
+order by pais asc;
