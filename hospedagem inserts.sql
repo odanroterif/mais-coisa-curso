@@ -55,6 +55,9 @@ INSERT INTO hospedagem.service(idservice,price,nome,descrisao) VALUES (1,30.50,'
 INSERT INTO hospedagem.service(idservice,price,nome,descrisao) VALUES (2,12.00,'restaurante','café da manhã,almoço,merenda,café da noite e janta');
 INSERT INTO hospedagem.service(idservice,price,nome,descrisao) VALUES (3,20.50,'lazer','atividades para passar o tempo');
 INSERT INTO hospedagem.service(idservice,price,nome,descrisao) VALUES (4,31.00,'turismo','conheça os melhores pontos dos arredores');
+INSERT INTO hospedagem.service(idservice,price,nome,descrisao) VALUES (5,62.37,'atendimento para pets','todos os cuidados que seu pet necessita no dia');
+INSERT INTO hospedagem.service(idservice,price,nome,descrisao) VALUES (6,120.00,'aluguel de temporada','para celebrações especiais');
+INSERT INTO hospedagem.service(idservice,price,nome,descrisao) VALUES (7,00.00,'praia','espaço de uso livre');
 
 
 INSERT INTO hospedagem.veiculo(placa,cor,modelo,marca,service_idservice) VALUES ('ABC1234','amarelo','moto','hecom',1);
