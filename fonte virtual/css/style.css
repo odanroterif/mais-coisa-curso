@@ -1,0 +1,24 @@
+@font-face {
+    font-family: unmei;
+    src: url('/font/Thunderline.ttf');
+}
+@font-face {
+    font-family: usopp;
+    src: url('/font/xbones3d.ttf');
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: gray;
+}
+h1 {
+    color: rgb(206, 206, 27);
+    font-family: unmei;
+}
+h2{
+    color: black;
+    font-family: usopp;
+    font-size: 50px;
+} 
