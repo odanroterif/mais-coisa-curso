@@ -27,16 +27,16 @@ INSERT INTO hospedagem.cliente(cpf_cliente,nome,sobrenome,data_nascimento,telefo
 INSERT INTO hospedagem.cliente(cpf_cliente,nome,sobrenome,data_nascimento,telefone_ddi,telefone_dd) VALUES ('67890123467','patricia','santos','1988-09-27','+61','29');
 
 
-INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('12345678901','rafael','gomes','1988-03-20');
-INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('23456789012','sofia ','souza','1985-07-14');
+INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('12345678911','rafael','gomes','1988-03-20');
+INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('23456789212','sofia ','souza','1985-07-14');
 INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('34567890123','thiago ','duarte','1991-11-06');
 INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('45678901234','ulysses ','lima','1986-01-22');
-INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('56789012345','vanessa ','oliveira','1988-09-05');
+INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('56789017345','vanessa ','oliveira','1988-09-05');
 INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('67890123456','wagner ','lima','1989-12-31');
 INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('78901234567','xenia ','braga','1990-04-02');
-INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('89012345678','yuri ','costa','1986-06-25');
+INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('89812345670','yuri ','costa','1986-06-25');
 INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('90123456789','zuleica ','monteiro','1987-10-16');
-INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('01234567890','ana ','lima','1991-02-12');
+INSERT INTO hospedagem.acompanhante(cpf_acompanhante,nome,sobrenome,data_nascimento) VALUES ('71234567897','ana ','lima','1991-02-12');
 
 
 INSERT INTO hospedagem.quarto(numero,andar,capacidade_maxima,disponibilidade,descrisao,categoria) VALUES (15,1,4,'vago','quarto simples com vista para o mar','basico');
