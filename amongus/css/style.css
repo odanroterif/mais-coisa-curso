@@ -1,0 +1,74 @@
+:root {
+    --oxford-blue: #0b0922ff;
+    --mountbatten-pink: #ab7a88ff;
+    --flax: #e9ce7dff;
+    --ochre: #c47a1eff;
+    --eggplant: #6b3d4dff;
+    --pistachio: rgba(163, 196, 109, 0.637);
+    --dim-gray: #6b6d68ff;
+    --redwood: #a55958ff;
+    --cool-gray: #a1a0adff;
+    --gray: #7b7567ff;
+}
+  
+
+@font-face {
+    font-family: hand-cali;
+    src: url('/font/KingsguardCalligraphy_PERSONAL_USE_ONLY.otf');
+}
+
+
+body{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;        
+    background: radial-gradient(var(--oxford-blue),var(--cool-gray),var(--eggplant),var(--oxford-blue)) ;
+    
+}
+
+
+hr{
+    width: 100%;
+    height: 6px;
+    background: var(--flax);
+    border: none;
+}
+
+
+img{
+    width: 350px; 
+    border-radius: 50%;   
+    border: 9px ridge var(--flax);
+}
+
+
+div.container{
+    width: 40%;
+    height: 78%;
+    background: var(--pistachio);
+    border-radius: 10px;
+    padding: 12px;      
+    display: flex;      
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 11px 20px var(--oxford-blue);
+}
+
+p{
+    color: var(--oxford-blue);
+    font-weight: 900;
+}
+
+h1{
+    font-size: 36px;
+    text-transform:  uppercase;
+}
+
+h2{
+    font-family: hand-cali;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 40;    
+}
